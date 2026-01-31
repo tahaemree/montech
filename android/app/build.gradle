@@ -1,0 +1,46 @@
+plugins {
+    id "com.android.application" 
+    id "org.jetbrains.kotlin.android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+android {
+    namespace "com.example.montech"
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.example.montech"
+        minSdkVersion flutter.minSdkVersion
+        targetSdkVersion 36
+        versionCode 1
+        versionName "1.0.0"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+        coreLibraryDesugaringEnabled true
+    }
+
+    kotlinOptions {
+        jvmTarget = '11'
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.debug
+        }
+    }
+}
+
+
+flutter {
+    source "../.."
+}
+
+dependencies {
+    // Kotlin Gradle Plugin sürümü 2.2.0 ise, bu genellikle otomatik olarak doğru stdlib sürümünü çeker.
+    // Yine de manuel olarak belirtmek isterseniz:
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:2.2.0" // Kotlin 2.2.0'a güncellendi
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.5' // Güncel
+}
