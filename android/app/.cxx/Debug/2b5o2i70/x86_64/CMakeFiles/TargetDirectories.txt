@@ -1,0 +1,2 @@
+/Users/enesbal/Desktop/montech/android/app/.cxx/Debug/2b5o2i70/x86_64/CMakeFiles/edit_cache.dir
+/Users/enesbal/Desktop/montech/android/app/.cxx/Debug/2b5o2i70/x86_64/CMakeFiles/rebuild_cache.dir
