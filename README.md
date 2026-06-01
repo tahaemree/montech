@@ -4,7 +4,6 @@
   <img src="https://img.shields.io/badge/Flutter-3.x-blue?logo=flutter" alt="Flutter">
   <img src="https://img.shields.io/badge/Dart-3.x-blue?logo=dart" alt="Dart">
   <img src="https://img.shields.io/badge/Platform-Android-green?logo=android" alt="Android">
-  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
 </p>
 
 <p align="center">
@@ -127,4 +126,6 @@ AD          # Emergency Trigger Flag
 
 ## 📄 License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This software is strictly for **educational and portfolio demonstration purposes**. It is licensed under a custom **Non-Commercial License** (All Rights Reserved).
+
+You are **NOT authorized** to use, sell, or distribute this software for any commercial purposes without explicit prior written permission. Please see the [LICENSE](LICENSE) file for complete details.
