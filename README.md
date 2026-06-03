@@ -126,6 +126,6 @@ AD          # Emergency Trigger Flag
 
 ## 📄 License
 
-This software is strictly for **educational and portfolio demonstration purposes**. It is licensed under a custom **Non-Commercial License** (All Rights Reserved).
+This software is open-sourced under the **MIT License**.
 
-You are **NOT authorized** to use, sell, or distribute this software for any commercial purposes without explicit prior written permission. Please see the [LICENSE](LICENSE) file for complete details.
+You are free to use, modify, and distribute this software, provided that the original copyright and permission notice are included. Please see the [LICENSE](LICENSE) file for complete details.
